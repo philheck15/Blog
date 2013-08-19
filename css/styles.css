@@ -1,0 +1,180 @@
+@font-face {
+	font-family:'LeagueGothic';
+	src: url('type/LeagueGothic.eot');
+	src: url('type/LeagueGothic.ept?#iefix')
+		format('embedded-opentype'),
+		url('type/LeagueGothic.woff') format('woff'),
+		url('type/LeagueGothic.ttf')
+		format('truetype'),
+		url('type/LeagueGothic.svg#LeagueGothic')
+		format('svg');
+}
+
+article, aside, footer, header, nav, section {
+	display:block;
+}
+
+body {
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	color: #000;
+	font-size: 0.9em;
+	line-height: 1.35em;
+}
+
+h2 {
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	font-size: 1.35em;
+	text-transform: uppercase;
+	margin-bottom:0.5em;
+}
+
+h4 {
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top:1em;
+}
+
+p {
+	margin:0 0 2em 0;
+}
+
+#logo {
+	margin:3em 0 0 3em;
+}
+
+#back {
+	margin:0 0 3em 0;
+}
+
+/* Top-nav */
+
+#top-nav li{
+	float:right;
+	padding:5px;
+	margin:0 5% 0 0;
+	text-decoration:none;
+}
+
+#top-nav li a {  
+	line-height:2em;
+}
+
+a:link {
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: #00bff3;
+}
+a:visited {
+	color: #000;
+}
+a:hover {
+	color:#00aeef;
+}
+a:active {
+	color:#1361a6;
+}
+
+/* Fixed nav */
+
+#side-nav {
+	position:fixed;
+	width:30em;
+	height:42em;
+	margin:4% 0 0 3%;
+	text-decoration: none;
+}
+
+#side nav li {
+	float:left;
+	display:block;
+}
+
+#side-nav li a {
+	text-decoration:none;
+	font-size:16px;
+	color:#000000;
+	line-height: 25px;
+}
+
+a:link {
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+	color: #00bff3;
+}
+a:visited {
+	color: #000;
+}
+a:hover {
+	color:#00aeef;
+}
+a:active {
+	color:#1361a6;
+}
+
+/* container */
+#container {
+	width:100%;
+}	
+
+#content {
+	float:right;
+	width:55%;
+	padding:2% 5% 0 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.date {
+	font-size: 0.8em;
+	margin:12px 0 0 0;
+}
+
+#copyright {	
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	font-size: 0.9em;
+	font-weight: bold;
+	margin:0 0 3em 3em;
+}
+
+/* styles for about page */
+#1 p {
+	max-width=300px;
+}
+
+/* styles for archives page */
+form{
+	margin:0 0 0 3em;
+}
+
+.date {
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	font-size: 0.9em;
+}
+
+h3 {
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin:0 0 1.5em 0;
+}
+
+/* styles for contact page */
+h5 {
+	font-family: LeagueGothic, Arial, verdana, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#your-name {
+	float:left;
+	max-width: 300px;
+	max-height:300px;
+	line-height: 32px;
+}
+
+
